@@ -1,0 +1,110 @@
+body {
+  background-image: url(https://wallpaper-house.com/data/out/9/wallpaper2you_322331.jpg);
+  background-color: #f5f7fa;
+  padding: 40px;
+  font-family: "Montserrat", sans-serif;
+}
+.container {
+  display: flex;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(189, 191, 196);
+}
+
+.left-side {
+  max-width: 300px;
+  color: #fff;
+}
+
+.photo {
+  border: 1px solid #8c9099;
+  border-radius: 50%;
+  overflow: hidden;
+  text-align: center;
+}
+.footer {
+  width: 1000px;
+  background-color: gray;
+  text-align: center;
+  margin: auto;
+  margin-top: 0;
+}
+
+.footer_text {
+  width: auto;
+  text-align: center;
+  margin-top: 0px;
+  padding-top: 20px;
+}
+.contacts {
+  width: 250px;
+  text-align: center;
+}
+
+.contacts-list {
+  text-align: left;
+}
+
+@keyframes color-change {
+  0% {
+    color: #696969;
+  }
+
+  50% {
+    color: #d3d3d3;
+  }
+
+  100% {
+    color: #ada2a2;
+  }
+}
+.animation {
+  font-size: 32px;
+  text-align: center;
+  animation: color-change 3s infinite;
+}
+
+h2,
+nav,
+p,
+blockquote,
+ul {
+  text-align: center;
+}
+
+h2 {
+  color: rgb(58, 59, 59);
+}
+
+a:link {
+  color: #53606d;
+  font-size: smaller;
+}
+
+main {
+  max-width: 700px;
+  padding-right: 200px;
+  padding-top: 68px;
+  padding-bottom: 68px;
+  text-align: center;
+  background-color: rgb(218, 216, 211);
+}
+
+.vk {
+  text-align: left;
+  color: #53606d;
+}
+
+.rigrt-side_text {
+  width: 600px;
+  margin: auto;
+}
+.education {
+  line-height: 24px;
+}
+
+span {
+  font-weight: bold;
+  font-size: medium;
+}
